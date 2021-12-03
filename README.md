@@ -46,7 +46,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 PORT=12345 tools/dist_test.sh configs/_m2mrf_idrid/
 
 ## Results and models
 
-We evaluate our method on [IDRiD](https://doi.org/10.3390/data3030025) and [DDR](https://doi.org/10.1016/j.ins.2019.06.011).
+We evaluate our method on [IDRiD](https://ieee-dataport.org/open-access/indian-diabetic-retinopathy-image-dataset-idrid) and [DDR](https://doi.org/10.1016/j.ins.2019.06.011).
 
 ### IDRiD
 
