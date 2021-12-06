@@ -38,10 +38,10 @@ python tools/prepare_labels.py
 python tools/augment.py
 
 # train
-CUDA_VISIBLE_DEVICES=0,1,2,3 PORT=12345 tools/dist_train.sh configs/_m2mrf_idrid/fcn_hr48-M2MRF-C_40k_idrid_bdice.py 4
+CUDA_VISIBLE_DEVICES=0,1,2,3 PORT=12345 tools/dist_train.sh configs/m2mrf/fcn_hr48-M2MRF-C_40k_idrid_bdice.py 4
 
 # test
-CUDA_VISIBLE_DEVICES=0,1,2,3 PORT=12345 tools/dist_test.sh configs/_m2mrf_idrid/fcn_hr48-M2MRF-C_40k_idrid_bdice.py /path/to/fcn_hr48-M2MRF-C_40k_idrid_bdice_iter_40000.pth 4 --eval mIoU
+CUDA_VISIBLE_DEVICES=0,1,2,3 PORT=12345 tools/dist_test.sh configs/m2mrf/fcn_hr48-M2MRF-C_40k_idrid_bdice.py /path/to/fcn_hr48-M2MRF-C_40k_idrid_bdice_iter_40000.pth 4 --eval mIoU
 ```
 
 ## Results and models
