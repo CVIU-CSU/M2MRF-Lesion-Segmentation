@@ -53,7 +53,7 @@ We evaluate our method on [IDRiD](https://ieee-dataport.org/open-access/indian-d
 | method  | &nbsp;&nbsp;mIOU&nbsp;&nbsp; | mAUPR | download                                                                                                                                                       |
 | ------- | :--------------------------: | :---: | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | M2MRF-A |            49.86             | 67.15 | [config](configs/m2mrf/fcn_hr48-M2MRF-A_40k_idrid_bdice.py) &#124; [model](https://drive.google.com/file/d/1rRN4-X0HDwa0srJaEKodzyQOOxuYLXaQ/view?usp=sharing) |
-| M2MRF-B |            49.33             | 66.71 | [config](configs/m2mrf/fcn_hr48-M2MRF-B_40k_idrid_bdice.py) &#124; [model](https://drive.google.com/file/d/1rRN4-X0HDwa0srJaEKodzyQOOxuYLXaQ/view?usp=sharing) |
+| M2MRF-B |            49.33             | 66.71 | [config](configs/m2mrf/fcn_hr48-M2MRF-B_40k_idrid_bdice.py) &#124; [model](https://drive.google.com/file/d/1tERKxM_qnbJ3L261g_CaPdRgyuJbdhj5/view?usp=sharing) |
 | M2MRF-C |            50.17             | 67.55 | [config](configs/m2mrf/fcn_hr48-M2MRF-C_40k_idrid_bdice.py) &#124; [model](https://drive.google.com/file/d/11YoorrgNds960WTNypDs4qissjgoLZd1/view?usp=sharing) |
 | M2MRF-D |            49.96             | 67.32 | [config](configs/m2mrf/fcn_hr48-M2MRF-D_40k_idrid_bdice.py) &#124; [model](https://drive.google.com/file/d/1LkwmrtHEuahCMR1dJxSBPfiUCPf4uZDz/view?usp=sharing) |
 
